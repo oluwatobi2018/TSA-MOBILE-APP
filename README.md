@@ -1,4 +1,3 @@
-Certainly! Below is your `README.md` content formatted with proper Markdown syntax. When you push this to GitHub, each code block will automatically include a "Copy" button in the top-right corner, allowing users to easily copy the code snippets.
 
 ---
 
