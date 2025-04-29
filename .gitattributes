@@ -1,1 +1,27 @@
-*.psd filter=lfs diff=lfs merge=lfs -text
+# Ensure consistent line endings across platforms
+* text=auto
+
+# Set specific line endings for JavaScript and JSON files
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.json text eol=lf
+
+# Treat image and media files as binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.mp4  binary
+*.mp3  binary
+
+# Handle font files as binary
+*.ttf  binary
+*.otf  binary
+
+# Mark generated files to be ignored by GitHub's language statistics
+*.lock linguist-generated=true
+*.min.js linguist-generated=true
+

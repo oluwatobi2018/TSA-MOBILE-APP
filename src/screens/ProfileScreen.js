@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-import { AppRegistry } from 'react-native';
-import App from './src/App';
-import { name as appName } from './app.json';
-
-AppRegistry.registerComponent(TSAMOBILEAPP, () => App);
-=======
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
->>>>>>> d68bc80168fe1dfca3150a2d44ec45312bc9445b
 
-const App = () => {
+const ProfileScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Welcome to TSA Mobile App!</Text>
+            <Text style={styles.title}>Profile Screen</Text>
         </View>
     );
 };
@@ -24,11 +16,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#f5f5f5',
     },
-    text: {
-        fontSize: 20,
+    title: {
+        fontSize: 24,
         fontWeight: 'bold',
         color: '#333',
     },
 });
 
-export default App;
+export default ProfileScreen;
