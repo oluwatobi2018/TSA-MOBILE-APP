@@ -123,7 +123,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License.
 
 ---
-
-**Note:** GitHub automatically adds "Copy" buttons to code blocks in Markdown files. Simply hover over the top-right corner of any code block to reveal the button. This feature enhances usability by allowing users to quickly copy code snippets without manually selecting the text.  ([Easy way to add 'copy to clipboard' to GitHub markdown?](https://stackoverflow.com/questions/31908564/easy-way-to-add-copy-to-clipboard-to-github-markdown?utm_source=chatgpt.com))
-
-If you need further assistance or customization, feel free to ask! 
