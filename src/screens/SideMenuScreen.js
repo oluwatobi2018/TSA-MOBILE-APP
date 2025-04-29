@@ -15,7 +15,7 @@ const SideMenuScreen = ({ navigation }) => {
             <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Profile')}>
                 <Text style={styles.menuText}>Profile</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Settings')}>
+            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('My Profile')}>
                 <Text style={styles.menuText}>Settings</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Logout')}>
