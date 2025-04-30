@@ -7,6 +7,9 @@ import DetailsScreen from '../screens/DetailsScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import SocialScreen from '../screens/SocialScreen';
 import LinksScreen from '../screens/LinksScreen';
+import AddContactScreen from '../screens/AddContactSceen';
+import ContactListScreen from '../screens/ContactListScreen';
+import SideMenuSceen from '../screens/SideMenuScreen';
 
 const Stack = createStackNavigator();
 
