@@ -1,1 +1,52 @@
+# macOS
+.DS_Store
+
+# Node modules
+node_modules/
+
+# React Native
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# NPM/Yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Metro, bundler cache
+.cache/
+tmp/
+dist/
+build/
+
+# Watchman
+.watchmanconfig
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.staging
+.env.production
+.env.*
+
+# Prettier/Eslint
+.eslintcache
+
+# Misc
+*.log
+coverage/
+__tests__/coverage/
 
