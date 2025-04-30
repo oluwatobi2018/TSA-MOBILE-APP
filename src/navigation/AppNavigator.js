@@ -10,6 +10,7 @@ import LinksScreen from '../screens/LinksScreen';
 import AddContactScreen from '../screens/AddContactSceen';
 import ContactListScreen from '../screens/ContactListScreen';
 import SideMenuSceen from '../screens/SideMenuScreen';
+import LoginScreen from '../screens/LoginScreen';
 
 const Stack = createStackNavigator();
 
@@ -25,6 +26,7 @@ const AppNavigator = () => {
                 <Stack.Screen name="AddContact" component={AddContactScreen} />
                 <Stack.Screen name="ContactList" component={ContactListScreen} />
                 <Stack.Screen name="SideMenu" component={SideMenuScreen} />
+                <Stack.Screen name="Login" component={LoginScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );
