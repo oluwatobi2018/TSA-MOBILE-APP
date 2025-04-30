@@ -3,7 +3,6 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from '../screens/HomeScreen';
-import DetailsScreen from '../screens/DetailsScreen';
 import MyProfileScreen from '../screens/MyProfileScreen';
 import SocialScreen from '../screens/SocialScreen';
 import LinksScreen from '../screens/LinksScreen';
@@ -19,7 +18,6 @@ const AppNavigator = () => {
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Home">
                 <Stack.Screen name="Home" component={HomeScreen} />
-                <Stack.Screen name="Details" component={DetailsScreen} />
                 <Stack.Screen name="MyProfile" component={MyProfileScreen} />
                 <Stack.Screen name="Social" component={SocialScreen} />
                 <Stack.Screen name="Links" component={LinksScreen} />
