@@ -1,1 +1,41 @@
+{
+  "build": {
+    "development": {
+      "ios": {
+        "buildType": "simulator",
+        "artifactPath": "./ios/build"
+      },
+      "android": {
+        "buildType": "apk",
+        "artifactPath": "./android/build"
+      }
+    },
+    "production": {
+      "ios": {
+        "buildType": "release",
+        "artifactPath": "./ios/build"
+      },
+      "android": {
+        "buildType": "app-bundle",
+        "artifactPath": "./android/build"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "your-apple-id",
+        "ascAppId": "your-app-id",
+        "ascApiKey": {
+          "keyId": "your-key-id",
+          "issuerId": "your-issuer-id",
+          "privateKeyPath": "./keys/your-private-key.p8"
+        }
+      },
+      "android": {
+        "serviceAccountKeyPath": "./keys/your-service-account.json"
+      }
+    }
+  }
+}
 
