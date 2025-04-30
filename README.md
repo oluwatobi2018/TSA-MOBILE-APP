@@ -1,7 +1,7 @@
 
 ---
 
-# 📱 MyReactNativeApp
+# 📱 TSA MOBILE APP
 
 A cross-platform mobile application built with React Native, designed to deliver a seamless user experience on both Android and iOS devices.
 
