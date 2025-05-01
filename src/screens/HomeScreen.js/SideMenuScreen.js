@@ -29,7 +29,7 @@ const SideMenuScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#000000',
         padding: 20,
     },
     title: {
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     menuItem: {
         paddingVertical: 15,
         borderBottomWidth: 1,
-        borderBottomColor: '#ccc',
+        borderBottomColor: '#000000',
     },
     menuText: {
         fontSize: 18,
