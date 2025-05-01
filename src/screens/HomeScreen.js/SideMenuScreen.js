@@ -10,7 +10,7 @@ const SideMenuScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Menu</Text>
-            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('ContactKeepr')}>
+            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('ContactKeeper')}>
                 <Text style={styles.menuText}>ContactKeeper</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Contact')}>
