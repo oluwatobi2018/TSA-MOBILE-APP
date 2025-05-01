@@ -10,14 +10,14 @@ const SideMenuScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Menu</Text>
-            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Home')}>
-                <Text style={styles.menuText}>Home</Text>
+            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('ContactKeepr')}>
+                <Text style={styles.menuText}>ContactKeeper</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Contact')}>
+                <Text style={styles.menuText}>Contact</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Profile')}>
                 <Text style={styles.menuText}>Profile</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('My Profile')}>
-                <Text style={styles.menuText}>Settings</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.menuItem} onPress={() => handleNavigation('Logout')}>
                 <Text style={styles.menuText}>Logout</Text>
