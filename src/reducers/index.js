@@ -1,11 +1,12 @@
 import { combineReducers } from 'redux';
 
 // Import your reducers here
-// Example: import userReducer from './userReducer';
+import userReducer from './userReducer';
+import authReducer from './authReducer'; // example for authentication reducer
 
 const rootReducer = combineReducers({
-    // Add your reducers here
-    // Example: user: userReducer,
+    user: userReducer,
+    auth: authReducer, // example reducer for authentication state
 });
 
 export default rootReducer;
