@@ -6,7 +6,7 @@ import HomeScreen from '../screens/HomeScreen';
 import MyProfileScreen from '../screens/MyProfileScreen';
 import SocialScreen from '../screens/SocialScreen';
 import LinksScreen from '../screens/LinksScreen';
-import AddContactScreen from '../screens/AddContactSceen';
+import AddContactScreen from '../screens/AddContactScreen';
 import ContactListScreen from '../screens/ContactListScreen';
 import SideMenuSceen from '../screens/SideMenuScreen';
 import LoginScreen from '../screens/LoginScreen';
