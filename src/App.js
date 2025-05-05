@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-import { AppRegistry } from 'react-native';
-import App from './src/App';
-import { name as appName } from './app.json';
-
-AppRegistry.registerComponent(TSAMOBILEAPP, () => App);
-=======
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
->>>>>>> d68bc80168fe1dfca3150a2d44ec45312bc9445b
 
 const App = () => {
     return (
